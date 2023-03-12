@@ -1,0 +1,68 @@
+const colorData = [
+	{
+		paletteName: "Sandle",
+		lightest: "#F4F1DE",
+		light: "#F2CC8F",
+		medium: "#E07A5F",
+		mediumDark: "#81B29A",
+		dark: "#3D405B",
+	},
+	{
+		paletteName: "Light",
+		lightest: "#fefae0",
+		light: "#faedcd",
+		medium: "#e9edc9",
+		mediumDark: "#ccd5ae",
+		dark: "#d4a373",
+	},
+	{
+		paletteName: "Beach",
+		lightest: "#fdfcdc",
+		light: "#fed9b7",
+		medium: "#f07167",
+		mediumDark: "#00afb9",
+		dark: "#0081a7",
+	},
+	{
+		paletteName: "Salmon",
+		lightest: "#ffdab9",
+		light: "#fbc4ab",
+		medium: "#f8ad9d",
+		mediumDark: "#f4978e",
+		dark: "#f08080",
+	},
+	{
+		paletteName: "Light Green",
+		lightest: "#edeec9",
+		light: "#dde7c7",
+		medium: "#bfd8bd",
+		mediumDark: "#98c9a3",
+		dark: "#77bfa3",
+	},
+	{
+		paletteName: "Earth",
+		lightest: "#eae1df",
+		light: "#b79492",
+		medium: "#917c78",
+		mediumDark: "#667761",
+		dark: "#545e56",
+	},
+	{
+		paletteName: "Purple",
+		lightest: "#f2d7ee",
+		light: "#d3bcc0",
+		medium: "#a5668b",
+		mediumDark: "#69306d",
+		dark: "#0e103d",
+	},
+	{
+		paletteName: "Dark Neutral",
+		lightest: "#eacdc2",
+		light: "#b75d69",
+		medium: "#774c60",
+		mediumDark: "#372549",
+		dark: "#1a1423",
+	},
+];
+
+export default colorData;

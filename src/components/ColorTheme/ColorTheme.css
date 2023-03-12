@@ -1,0 +1,17 @@
+.palette {
+	display: flex;
+	justify-content: center;
+	scale: 0.7;
+}
+
+.palette div {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50%;
+	margin-left: -10px;
+	position: relative;
+}
+
+.active .palette {
+	scale: 1;
+}
