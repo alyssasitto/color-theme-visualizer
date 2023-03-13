@@ -1,0 +1,19 @@
+.transactions {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: transparent;
+	box-shadow: none;
+	margin-bottom: 3rem;
+}
+
+.transactions h2 {
+	font-weight: 800;
+	padding-left: 2rem;
+}
+
+@media screen and (min-width: 100px) {
+	.transactions h2 {
+		padding-left: 0;
+	}
+}

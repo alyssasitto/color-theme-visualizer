@@ -1,0 +1,14 @@
+.bank-cards {
+	margin-bottom: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+	.bank-cards {
+		flex-direction: row;
+		flex-grow: inherit;
+		justify-content: space-between;
+	}
+}

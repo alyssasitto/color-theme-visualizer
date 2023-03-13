@@ -1,0 +1,28 @@
+.cash-back-card {
+	padding: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+}
+
+.cash-back {
+	margin-bottom: 2rem;
+}
+
+.cash-back-card img {
+	width: 6rem;
+}
+
+.cash-back-card button {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: auto;
+	font-size: 1.6rem;
+}
+
+.cash-back-card button img {
+	width: 2.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+}

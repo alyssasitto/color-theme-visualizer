@@ -1,0 +1,43 @@
+.bank-card {
+	border-radius: 1rem;
+	padding: 3rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.bank-card h3 {
+	font-weight: 800;
+	margin-bottom: 1rem;
+}
+
+.balance {
+	font-size: 2rem;
+}
+
+.bank-card img {
+	width: 7rem;
+}
+
+.bank-card.cb img {
+	width: 4rem;
+}
+
+.bank-card.ch img {
+	width: 3.5rem;
+}
+
+.bank-card.boa img {
+	width: 5rem;
+}
+
+.bank-card .ellipsis {
+	width: 2rem !important;
+}
+
+@media screen and (min-width: 1000px) {
+	.bank-card {
+		flex: 1;
+	}
+}

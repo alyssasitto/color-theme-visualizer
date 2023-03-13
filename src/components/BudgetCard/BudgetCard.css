@@ -1,0 +1,55 @@
+.budget-card {
+	margin-bottom: 3rem;
+}
+
+.data-bars {
+	display: flex;
+	gap: 0.5rem;
+	height: 20rem;
+	justify-content: center;
+	margin-bottom: 5rem;
+	border-bottom: 1px solid rgb(91, 91, 91);
+}
+
+.data-bars .bar {
+	position: relative;
+	width: 6rem;
+	align-self: flex-end;
+	border-top-right-radius: 0.5rem;
+	border-top-left-radius: 0.5rem;
+}
+
+.bar-1::before,
+.bar-2::before,
+.bar-3::before,
+.bar-4::before {
+	position: absolute;
+	bottom: -4rem;
+	width: 5rem;
+	text-align: center;
+}
+
+.bar-1::before {
+	content: "Feb";
+}
+
+.bar-2::before {
+	content: "Mar";
+}
+
+.bar-3::before {
+	content: "Apr";
+}
+
+.bar-4::before {
+	content: "May";
+}
+
+.budget-card button {
+	margin-top: 2rem;
+}
+
+.recommended {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}

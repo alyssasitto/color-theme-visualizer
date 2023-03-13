@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,4 +12,76 @@ html {
 
 body {
 	padding: 2rem 0;
+	font-size: 1.6rem;
+	font-family: "Nunito", sans-serif;
+}
+
+section {
+	/* margin: 0 1rem; */
+	padding: 2rem;
+	border-radius: 1.5rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+}
+
+span {
+	margin-right: 0.6rem;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+}
+
+/* Universal classes */
+
+body .mr-ml-helper {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.mb-helper {
+	margin-bottom: 1.3rem;
+}
+
+.fb-helper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+.extra-bold {
+	font-weight: 1000;
+}
+
+.btn {
+	padding: 1.2rem;
+	border-radius: 7px;
+	font-size: 1.5rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media screen and (min-width: 700px) {
+	body .mr-ml-helper {
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	body .mr-ml-helper {
+		margin-left: 8rem;
+		margin-right: 8rem;
+	}
 }

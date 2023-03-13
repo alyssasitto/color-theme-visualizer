@@ -1,0 +1,54 @@
+.balance-card {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 3rem;
+}
+
+.balance-card .bold {
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+}
+
+.balance-card .extra-bold {
+	font-size: 2.5rem;
+}
+
+.balance-card .btns {
+	display: flex;
+	gap: 2rem;
+}
+
+.balance-card .btns button {
+	width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+	.balance-card {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.balance-card .small {
+		font-size: 1.6rem;
+		margin-bottom: 3rem;
+	}
+
+	.balance-card .card-num {
+		font-size: 2.8rem;
+		margin-bottom: 3rem;
+	}
+
+	.balance-card .total-balance {
+		font-size: 3rem;
+	}
+
+	.balance-card .btns {
+		flex-direction: column;
+	}
+
+	.balance-card .btns button {
+		font-size: 2rem;
+		padding: 1.8rem;
+	}
+}
