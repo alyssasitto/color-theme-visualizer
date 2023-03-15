@@ -7,10 +7,12 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 
 import themeReducer from "./features/Theme";
+import themesReducer from "./features/ThemesArr";
 
 const store = configureStore({
 	reducer: {
 		theme: themeReducer,
+		themesArr: themesReducer,
 	},
 });
 

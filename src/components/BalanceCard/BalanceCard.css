@@ -25,8 +25,12 @@
 
 @media screen and (min-width: 1000px) {
 	.balance-card {
-		flex-direction: row;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.funds {
+		grid-column: 2 / 3;
 	}
 
 	.balance-card .small {
@@ -44,11 +48,12 @@
 	}
 
 	.balance-card .btns {
-		flex-direction: column;
+		/* flex-direction: column; */
+		grid-column: 1 / span 2;
 	}
 
 	.balance-card .btns button {
 		font-size: 2rem;
-		padding: 1.8rem;
+		/* padding: 1.8rem; */
 	}
 }

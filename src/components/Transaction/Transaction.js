@@ -5,14 +5,13 @@ const Transaction = ({ transaction }) => {
 		<div className="transaction">
 			<div>
 				<p className="date">{transaction.date}</p>
-				<p>{transaction.business}</p>
+				<p className="bold">{transaction.business}</p>
 			</div>
-			<div>
-				<p>{transaction.transactionType}</p>
-				<p>{transaction.businessType}</p>
+			<div className="flex-helper">
 				<p className="extra-bold transaction-amount">
 					{transaction.transaction}
 				</p>
+				<p className="view-details">View details</p>
 			</div>
 		</div>
 	);
