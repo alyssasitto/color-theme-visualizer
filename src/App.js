@@ -11,12 +11,23 @@ function App() {
 	const theme = useSelector((state) => state.theme.value);
 	const themes = useSelector((state) => state.themesArr.value);
 
-	console.log("ooooooo", themes);
+	console.log("ooooooo", theme);
+
 	return (
 		<div className="app">
 			<GlobalStyle theme={theme}></GlobalStyle>
 			<AddTheme />
+
 			<ThemeMenu />
+
+			<div className="colors">
+				<p>{theme.lightest}</p>
+				<p>{theme.light}</p>
+				<p>{theme.medium}</p>
+				<p>{theme.mediumDark}</p>
+				<p>{theme.dark}</p>
+			</div>
+
 			<LandingPage />
 		</div>
 	);

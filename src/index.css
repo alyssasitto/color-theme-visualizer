@@ -72,6 +72,15 @@ body .mr-ml-helper {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+.colors {
+	font-size: 1.4rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 3rem;
+	color: black;
+}
+
 @media screen and (min-width: 700px) {
 	body .mr-ml-helper {
 		margin-left: 4rem;
@@ -83,5 +92,9 @@ body .mr-ml-helper {
 	body .mr-ml-helper {
 		margin-left: 8rem;
 		margin-right: 8rem;
+	}
+
+	.colors {
+		font-size: 2rem;
 	}
 }
