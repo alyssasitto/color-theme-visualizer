@@ -86,6 +86,9 @@ ${"" /* Cash back */}
     background-color: ${(props) => props.theme.medium};
 }
 
+.cash-back-card button {
+  color: ${(props) => props.theme.dark};
+}
 `;
 
 export default GlobalStyle;
