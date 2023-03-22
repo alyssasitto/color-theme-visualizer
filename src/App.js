@@ -1,17 +1,14 @@
 import { useSelector } from "react-redux";
 
-import Navbar from "./components/Navbar/Navbar";
 import AddTheme from "./components/AddTheme/AddTheme";
 import ThemeMenu from "./components/ThemeMenu/ThemeMenu";
 import LandingPage from "./pages/LandingPage/LandingPage";
+import HexCodes from "./components/HexCodes/HexCodes";
 
 import GlobalStyle from "./design/GlobalStyle";
 
 function App() {
 	const theme = useSelector((state) => state.theme.value);
-	const themes = useSelector((state) => state.themesArr.value);
-
-	console.log("ooooooo", theme);
 
 	return (
 		<div className="app">
@@ -19,14 +16,7 @@ function App() {
 			<AddTheme />
 
 			<ThemeMenu />
-
-			<div className="colors">
-				<p>{theme.lightest}</p>
-				<p>{theme.light}</p>
-				<p>{theme.medium}</p>
-				<p>{theme.mediumDark}</p>
-				<p>{theme.dark}</p>
-			</div>
+			<HexCodes />
 
 			<LandingPage />
 		</div>

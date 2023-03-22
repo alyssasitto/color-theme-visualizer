@@ -13,7 +13,7 @@ const AddTheme = () => {
 
 	return (
 		<div className="add-theme">
-			<button className="add-btn" onClick={() => toggle()}>
+			<button className="add-btn dark-btn" onClick={() => toggle()}>
 				Add theme
 			</button>
 

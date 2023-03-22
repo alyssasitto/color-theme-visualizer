@@ -89,6 +89,32 @@ ${"" /* Cash back */}
 .cash-back-card button {
   color: ${(props) => props.theme.dark};
 }
+
+${"" /* Theme modal */}
+
+.modal {
+  background-color: ${(props) => props.theme.medium};
+}
+
+.modal label {
+  font-weight: bold;
+    color: ${(props) => props.theme.dark};
+}
+
+.modal input {
+    background-color: ${(props) => props.theme.lightest};
+}
+
+.modal input::placeholder {
+    color: ${(props) => props.theme.dark};
+}
+
+.modal button {
+    color: ${(props) => props.theme.lightest};
+    font-weight: bold;
+    background-color: ${(props) => props.theme.dark};
+}
+
 `;
 
 export default GlobalStyle;
