@@ -13,9 +13,9 @@ import "swiper/css/navigation";
 import "./ThemeMenu.css";
 
 export default function ThemeMenu() {
-	const [themeIndex, setThemeIndex] = useState(0);
-
 	const themesArr = useSelector((state) => state.themesArr.value);
+
+	const [themeIndex, setThemeIndex] = useState(0);
 
 	const dispatch = useDispatch();
 
@@ -38,7 +38,7 @@ export default function ThemeMenu() {
 			{themesArr.map((el, i) => {
 				return (
 					<SwiperSlide className={themeIndex === i ? "active" : ""}>
-						<ColorTheme palette={el} />
+						<ColorTheme palette={el} index={i} setThemeIndex={setThemeIndex} />
 					</SwiperSlide>
 				);
 			})}

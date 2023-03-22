@@ -1,5 +1,6 @@
 const colorData = [
 	{
+		index: 0,
 		lightest: "#F3EFE0",
 		light: "#91d1cf",
 		medium: "#22A39F",
@@ -7,6 +8,7 @@ const colorData = [
 		dark: "#222222",
 	},
 	{
+		index: 1,
 		lightest: "#F7F7F7",
 		light: "#F2E7D5",
 		medium: "#8aad9e",
@@ -14,6 +16,7 @@ const colorData = [
 		dark: "#393E46",
 	},
 	{
+		index: 2,
 		lightest: "#EEEEEE",
 		light: "#ADDDD0",
 		medium: "#87A2FB",
@@ -21,6 +24,7 @@ const colorData = [
 		dark: "#21113b",
 	},
 	{
+		index: 3,
 		lightest: "#EEEEEE",
 		light: "#fdc2c2",
 		medium: "#F96666",
@@ -28,6 +32,7 @@ const colorData = [
 		dark: "#674747",
 	},
 	{
+		index: 4,
 		lightest: "#f9eef8",
 		light: "#EBC7E8",
 		medium: "#BFACE0",
@@ -35,6 +40,7 @@ const colorData = [
 		dark: "#645CAA",
 	},
 	{
+		index: 5,
 		lightest: "#eae1df",
 		light: "#b79492",
 		medium: "#917c78",
@@ -42,6 +48,7 @@ const colorData = [
 		dark: "#545e56",
 	},
 	{
+		index: 6,
 		lightest: "#f2d7ee",
 		light: "#d3bcc0",
 		medium: "#a5668b",
@@ -49,6 +56,7 @@ const colorData = [
 		dark: "#0e103d",
 	},
 	{
+		index: 7,
 		lightest: "#eacdc2",
 		light: "#b75d69",
 		medium: "#774c60",
@@ -56,6 +64,7 @@ const colorData = [
 		dark: "#1a1423",
 	},
 	{
+		index: 8,
 		lightest: "#e2f7f0",
 		light: "#B6EADA",
 		medium: "#5B8FB9",
