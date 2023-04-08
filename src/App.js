@@ -1,9 +1,10 @@
 import { useSelector } from "react-redux";
 
-import AddTheme from "./components/AddTheme/AddTheme";
-import ThemeMenu from "./components/ThemeMenu/ThemeMenu";
-import LandingPage from "./pages/LandingPage/LandingPage";
-import HexCodes from "./components/HexCodes/HexCodes";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home/Home";
+import Colors from "./pages/Colors/Colors";
+import ThemeTester from "./pages/ThemeTester/ThemeTester";
 
 import GlobalStyle from "./design/GlobalStyle";
 
@@ -14,12 +15,11 @@ function App() {
 		<div className="app">
 			<GlobalStyle theme={theme}></GlobalStyle>
 
-			<AddTheme />
-
-			<ThemeMenu />
-			<HexCodes />
-
-			<LandingPage />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/colors" element={<Colors />} />
+				<Route path="/tester" element={<ThemeTester />} />
+			</Routes>
 		</div>
 	);
 }

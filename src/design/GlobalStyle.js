@@ -1,32 +1,31 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-body {
+.tester {
   color: ${(props) => props.theme.dark};
   background: ${(props) => props.theme.lightest};
 }
 
-section {
+.tester section {
    background: ${(props) => props.theme.light};
 }
 
 
 
-${"" /* Universal classes */}
 
-.small {
+.tester .small {
 	font-weight: normal;
   font-size: 1.3rem;
   text-transform: uppercase;
   color: ${(props) => props.theme.mediumDark};
 }
 
-.dark-btn {
+.tester .dark-btn {
 color: ${(props) => props.theme.lightest};
 background-color: ${(props) => props.theme.dark};
 }
 
-.light-btn {
+.tester .light-btn {
 color: ${(props) => props.theme.dark};
 background-color: ${(props) => props.theme.lightest};
 }
@@ -34,82 +33,82 @@ background-color: ${(props) => props.theme.lightest};
 
 ${"" /* Budget card */}
 
-.budget-card h2, .recommended {
+.tester .budget-card h2, .recommended {
   color: ${(props) => props.theme.mediumDark};
   margin-bottom: .5rem;
 }
 
-.data-bars .bar-1 {
+.tester .data-bars .bar-1 {
 height: 80%;
 background-color: ${(props) => props.theme.lightest};
 }
 
-.data-bars .bar-2 {
+.tester .data-bars .bar-2 {
   height: 50%;
   background-color: ${(props) => props.theme.medium};
 }
 
-.data-bars .bar-3 {
+.tester .data-bars .bar-3 {
   height: 100%;
   background-color: ${(props) => props.theme.mediumDark};
 }
 
-.data-bars .bar-4 {
+.tester .data-bars .bar-4 {
   height: 70%;
   background-color: ${(props) => props.theme.dark};
 }
 
 ${"" /* Bank card */}
 
-.bank-card {
+.tester .bank-card {
   background-color: ${(props) => props.theme.lightest};
 }
 
-.balance {
+.tester .balance {
   color: ${(props) => props.theme.medium};
 }
 
 ${"" /* Transaction */}
 
- .transaction .date {
+.tester .transaction .date {
   color: ${(props) => props.theme.mediumDark};
  }
 
- .transaction-amount {
+.tester .transaction-amount {
      color: ${(props) => props.theme.medium};
 }
 
 ${"" /* Cash back */}
 
 
-.cash-back-card {
+.tester .cash-back-card {
     background-color: ${(props) => props.theme.medium};
 }
 
-.cash-back-card button {
+.tester .cash-back-card button {
   color: ${(props) => props.theme.dark};
 }
 
 ${"" /* Theme modal */}
 
-.modal {
+.tester .modal {
   background-color: ${(props) => props.theme.medium};
 }
 
-.modal label {
+.tester .modal label {
   font-weight: bold;
     color: ${(props) => props.theme.dark};
 }
 
-.modal input {
+.tester .modal input {
     background-color: ${(props) => props.theme.lightest};
 }
 
-.modal input::placeholder {
+.tester .modal input::placeholder {
     color: ${(props) => props.theme.dark};
 }
 
-.modal button {
+.tester .modal button {
     color: ${(props) => props.theme.lightest};
     font-weight: bold;
     background-color: ${(props) => props.theme.dark};
