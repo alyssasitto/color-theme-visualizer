@@ -1,3 +1,9 @@
+.tester section {
+	padding: 2rem;
+	border-radius: 1.5rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 @media screen and (min-width: 1000px) {
 	.container {
 		display: grid;

@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Colors from "./pages/Colors/Colors";
 import ThemeTester from "./pages/ThemeTester/ThemeTester";
+import Navbar from "./components/Navbar/Navbar";
 
 import GlobalStyle from "./design/GlobalStyle";
 
@@ -13,6 +14,7 @@ function App() {
 
 	return (
 		<div className="app">
+			<Navbar />
 			<GlobalStyle theme={theme}></GlobalStyle>
 
 			<Routes>

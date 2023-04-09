@@ -1,0 +1,40 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--white);
+	height: 7rem;
+}
+
+.palette-icon {
+	width: 3.5rem;
+}
+
+.nav-btn {
+	width: 4rem;
+}
+
+.main-nav ul {
+	height: 0px;
+	overflow: hidden;
+	position: absolute;
+	top: 7rem;
+	background-color: var(--white);
+	left: 0;
+	right: 0;
+	transition: height 0.8s;
+	z-index: 3;
+	padding-left: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.main-nav ul.active {
+	height: 100vh;
+	z-index: 3;
+}
+
+.main-nav ul li:first-child {
+	padding-top: 3rem;
+}
