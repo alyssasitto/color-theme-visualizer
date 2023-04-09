@@ -1,0 +1,13 @@
+.purpose-container {
+	margin-bottom: 10rem;
+}
+
+.purpose-container h2 {
+	margin-bottom: 3rem;
+}
+
+.purpose-section {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}

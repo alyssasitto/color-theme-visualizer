@@ -1,0 +1,19 @@
+.purpose img {
+	width: 3rem;
+}
+
+.purpose span {
+	display: block;
+	height: 4.5rem;
+	width: 4.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--light-purple-blue);
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.purpose h3 {
+	margin-bottom: 0.5rem;
+}
