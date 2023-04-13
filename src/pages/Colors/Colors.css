@@ -1,0 +1,101 @@
+.themes-container h1 {
+	text-align: center;
+	margin: 5rem 0 2rem;
+	font-weight: 800;
+	font-size: 4rem;
+}
+
+.themes-container p {
+	text-align: center;
+	margin-bottom: 6rem;
+	font-size: 1.8rem;
+}
+
+.themes {
+	display: flex;
+	flex-direction: column;
+	gap: 6rem;
+}
+
+.theme {
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 10rem;
+}
+
+.single-color {
+	flex-grow: 1;
+	transition: all 0.4s;
+	display: flex;
+	cursor: pointer;
+}
+
+.single-color span {
+	display: inline-block;
+	opacity: 0;
+	width: 0px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+}
+
+.single-color.light span {
+	color: var(--black);
+}
+.single-color.dark span {
+	color: var(--white);
+}
+
+.single-color:hover {
+	flex-grow: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.single-color:hover span {
+	opacity: 1;
+	width: auto;
+}
+
+.alerts {
+	position: fixed;
+
+	/* height: auto; */
+	width: 80%;
+	margin: auto;
+	bottom: 2rem;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 2rem;
+	gap: 2rem;
+}
+
+.alerts p {
+	padding: 1.2rem;
+	background-color: var(--black);
+	color: var(--white);
+	margin-bottom: 0;
+	border-radius: 99px;
+	font-size: 1.6rem;
+}
+
+@media screen and (min-width: 700px) {
+	.themes {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.themes {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}

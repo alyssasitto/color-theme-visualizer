@@ -12,7 +12,7 @@ const themeOptionData = [
 		colors: ["#6f4e37", "#a67b5b", "#fed8b1", "#d99a6c", "#ecb176"],
 	},
 	{
-		theme: "Vibrant and Energetic:",
+		theme: "Vibrant and Energetic",
 		description:
 			"This color theme consists of bright colors such as red, orange, and yellow. It evokes a feeling of energy, excitement, and enthusiasm, and is often associated with summer and fun activities. This color theme is perfect for creating a lively and dynamic atmosphere on a website.",
 		colors: ["#780116", "#f7b538", "#db7c26", "#d8572a", "#c32f27"],
@@ -24,3 +24,5 @@ const themeOptionData = [
 		colors: ["#e0fbfc", "#c2dfe3", "#9db4c0", "#5c6b73", "#253237"],
 	},
 ];
+
+export default themeOptionData;

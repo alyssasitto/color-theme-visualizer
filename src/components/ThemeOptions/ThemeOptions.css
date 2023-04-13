@@ -1,0 +1,19 @@
+.theme-options-container {
+	text-align: center;
+}
+
+.theme-options-container h2 {
+	margin-bottom: 2rem;
+	font-size: 2.8rem;
+}
+
+.theme-options-container .mb-helper {
+	margin-bottom: 2rem;
+}
+
+.theme-options {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+	margin-bottom: 10rem;
+}

@@ -1,0 +1,22 @@
+.theme-option {
+	background-color: var(--light-grey);
+	padding: 2rem;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.theme-option h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.heart {
+	height: 3rem;
+}
+
+.theme-colors {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+}

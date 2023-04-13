@@ -1,0 +1,23 @@
+.cta-card {
+	text-align: center;
+	padding: 7rem 2rem;
+	color: var(--light-grey);
+	background-color: var(--purple-blue);
+}
+
+.cta-card h2 {
+	margin-bottom: 1.5rem;
+}
+
+.cta-card p {
+	margin-bottom: 2rem;
+}
+
+.cta-card a {
+	font-size: 1.8rem;
+	padding: 1.3rem;
+	display: block;
+	border-radius: 3px;
+	font-weight: 700;
+	background-color: var(--white);
+}

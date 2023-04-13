@@ -1,0 +1,19 @@
+footer {
+	color: var(--white);
+	background-color: var(--black);
+	padding-bottom: 2rem;
+}
+
+footer nav {
+	background-color: var(--black);
+}
+
+footer nav a {
+	color: var(--white);
+}
+
+footer nav ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
