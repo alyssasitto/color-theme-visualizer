@@ -30,7 +30,7 @@ const Navbar = () => {
 				/>
 			</Link>
 
-			<div>
+			<div className="nav-btns">
 				{navActive ? (
 					<button onClick={closeNav}>
 						<img src="images/exit.svg" className="nav-btn" alt="Exit icon" />

@@ -101,9 +101,13 @@ body .mr-ml-helper {
 		margin-left: 4rem;
 		margin-right: 4rem;
 	}
+
+	.padding-helper {
+		padding: 0 6rem;
+	}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
 	body .mr-ml-helper {
 		margin-left: 8rem;
 		margin-right: 8rem;
@@ -111,6 +115,10 @@ body .mr-ml-helper {
 
 	.colors {
 		font-size: 2rem;
+	}
+
+	.padding-helper {
+		padding: 0 12rem;
 	}
 }
 

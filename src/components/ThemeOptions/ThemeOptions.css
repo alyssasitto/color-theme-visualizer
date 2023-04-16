@@ -17,3 +17,21 @@
 	gap: 5rem;
 	margin-bottom: 10rem;
 }
+
+@media screen and (min-width: 1200px) {
+	.theme-options {
+		margin-top: 5rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.theme-options-container h2 {
+		font-size: 4rem;
+		margin-bottom: 4rem;
+	}
+
+	.themes-p {
+		font-size: 2rem;
+		padding: 0 15rem;
+	}
+}

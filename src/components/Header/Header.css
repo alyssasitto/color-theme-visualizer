@@ -18,8 +18,43 @@ header p {
 	border-radius: 3px;
 	color: var(--white);
 	background-color: var(--purple-blue);
+	transition: all 0.2s;
+	border: 1px solid transparent;
+}
+
+.test-theme-btn:hover {
+	color: var(--purple-blue);
+	background-color: var(--white);
+	border: 1px solid var(--purple-blue);
 }
 
 header img {
 	margin-bottom: 10rem;
+}
+
+@media screen and (min-width: 1200px) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10rem;
+		height: 90vh;
+		align-items: center;
+	}
+
+	header h1 {
+		font-size: 6rem;
+	}
+
+	header p {
+		font-size: 2rem;
+	}
+
+	.test-theme-btn {
+		font-size: 2rem;
+	}
+
+	header img {
+		width: 110%;
+		margin-bottom: 0;
+	}
 }

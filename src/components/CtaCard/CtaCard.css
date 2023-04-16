@@ -20,4 +20,39 @@
 	border-radius: 3px;
 	font-weight: 700;
 	background-color: var(--white);
+	transition: all 0.2s;
+}
+
+.cta-card a:hover {
+	background-color: var(--black);
+	color: var(--light-purple-blue);
+}
+
+@media screen and (min-width: 700px) {
+	.cta-card {
+		padding: 7rem 6rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.cta-card {
+		padding: 7rem 12rem;
+	}
+
+	.cta-card div {
+		width: 50%;
+		margin: auto;
+	}
+
+	.cta-card h2 {
+		font-size: 4rem;
+	}
+
+	.cta-card p {
+		font-size: 2rem;
+	}
+
+	.cta-card a {
+		font-size: 2rem;
+	}
 }

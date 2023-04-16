@@ -17,3 +17,21 @@ footer nav ul {
 	width: 100%;
 	justify-content: space-evenly;
 }
+
+footer nav ul li a {
+	transition: all 0.4s;
+}
+
+footer nav ul li a:hover {
+	color: var(--purple-blue);
+}
+
+@media screen and (min-width: 1200px) {
+	footer {
+		padding-top: 0.5rem;
+	}
+
+	footer nav ul li {
+		font-size: 1.8rem;
+	}
+}

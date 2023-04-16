@@ -5,6 +5,12 @@
 }
 
 @media screen and (min-width: 1000px) {
+	.tester {
+		scale: 0.8;
+		padding-top: 5rem;
+		border-radius: 10px;
+	}
+
 	.container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;

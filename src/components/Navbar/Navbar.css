@@ -38,3 +38,49 @@ nav {
 .main-nav ul li:first-child {
 	padding-top: 3rem;
 }
+
+.main-nav ul li a {
+	transition: all 0.5s;
+}
+
+.main-nav ul li a:hover {
+	color: var(--purple-blue);
+}
+
+@media screen and (min-width: 700px) {
+	nav {
+		margin-top: 2rem;
+	}
+
+	.main-nav ul {
+		padding-left: 6rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.main-nav ul {
+		position: relative;
+		height: auto;
+		top: 0;
+		transition: none;
+		padding-left: 0;
+		flex-direction: row;
+		gap: 6rem;
+	}
+
+	.nav-btns {
+		display: none;
+	}
+
+	.main-nav ul li {
+		font-size: 2.5rem;
+	}
+
+	.main-nav ul li:first-child {
+		padding-top: 0;
+	}
+
+	.palette-icon {
+		width: 4.5rem;
+	}
+}

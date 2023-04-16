@@ -27,8 +27,6 @@ const ThemeTester = () => {
 				<Transactions />
 				<BudgetCard />
 			</div>
-
-			<footer>Built and Designed by Alyssa Sitto</footer>
 		</div>
 	);
 };
