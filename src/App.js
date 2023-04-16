@@ -9,13 +9,17 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import GlobalStyle from "./design/GlobalStyle";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
 	const theme = useSelector((state) => state.theme.value);
 
 	return (
 		<div className="app">
+			<ScrollToTop />
+
 			<Navbar />
+
 			<GlobalStyle theme={theme}></GlobalStyle>
 
 			<Routes>
